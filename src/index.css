@@ -10,3 +10,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.logo-container {
+  padding: 25px 0 0 25px;
+}
+.display {
+  margin: 0 auto;
+}
+.NumberButtonContainer {
+  display: flex;
+  flex-flow: row wrap;
+  width: 250px;
+  justify-content: space-around;
+}
+.Numbers {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    border: none;
+    color: #000;
+    background-color: #50a1ff;
+    font-size: 25px;
+}
+.OperatorsContainer {
+  margin-top: -85px;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  border: none;
+  color: #000;
+  background-color: #50a1ff;
+  font-size: 25px;
+  margin: 5px 0;
+}
+.ButtonContainers {
+  width: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 25px 0;
+}
+.SpecialsContainer {
+  display: flex;
+  width: 250px;
+  justify-content: space-around;
+}
+#Value0 {
+  width:150px;
+}
